@@ -620,6 +620,7 @@ main {
 .export-button {
     padding: 0.5rem 1rem;
     border-radius: .25rem;
+    background-color: transparent;
     border: 1px solid #e2e8f0;
     color: #64748b;
     cursor: pointer;
@@ -627,6 +628,11 @@ main {
     align-items: center;
     gap: 0.5rem;
     transition: all 0.2s;
+}
+
+.dark-mode .export-button {
+    background-color: initial;
+    color: white;
 }
 
 .export-button:hover {
