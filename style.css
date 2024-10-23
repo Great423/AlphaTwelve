@@ -925,4 +925,8 @@ main {
         flex-direction: column-reverse;
         gap: 12px;
     }
+
+    .modal-child {
+        max-height: 434px;
+    }
 }
