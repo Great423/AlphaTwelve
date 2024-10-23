@@ -914,4 +914,10 @@ main {
       .bottom-nav .nav-label {
         color: #ADA9BB;
       }
+
+      .button-group {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 12px;
+    }
 }
