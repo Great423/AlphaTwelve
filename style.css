@@ -653,7 +653,6 @@ main {
 
 .modal-child {
     background: white;
-    height: 320px;
     width: 440px;
     max-width: 500px;
     border-radius: .25rem;
